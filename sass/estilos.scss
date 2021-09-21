@@ -1,4 +1,6 @@
-$carousel-control-color: red;
+$carousel-control-color: black;
+$carousel-control-width: 10%;
+$carousel-control-icon-width:        5rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -28,8 +30,8 @@ $carousel-control-color: red;
 
 #pagina1 .contenedor1 .logo img{
     border: 5px outset gray;
-    width: 400px;
-    height: 400px;
+    width: 35%;
+    height: 35%;
 }
 
 #pagina1 .contenedor1  .carousel-inner{
@@ -46,10 +48,14 @@ $carousel-control-color: red;
 }
 
 #pagina1 .contenedor1  .carousel-item .imagen{
-    width: 90%;
-    height: 90%;
+    width: 70%;
+    height: 70%;
 }
 
+#pagina1 .contenedor1  .carousel-item .titulo{
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 #pagina2 .contenedor2 .anteriores{
@@ -62,15 +68,29 @@ $carousel-control-color: red;
 
 #pagina2 .contenedor2 .anteriores a{
     text-decoration: none;
-    color: red;
+    color: blue;
 }
 
 .pie{
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     background-color: black;
     color: white;
     padding-top: 5px;
     letter-spacing: inherit;
+}
+
+@media only screen and (max-width: 750px) {
+
+    #pagina1 .contenedor1  .carousel-item .titulo{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    #pagina1 .contenedor1  .carousel-item .titulo{
+        font-size: 1.5em;
+    }
 }
