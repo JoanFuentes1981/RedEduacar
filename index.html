@@ -12,25 +12,31 @@
 <body>
 
     <section id="pagina1">
+      <header>
+        <div class="logo">
+          <img src="./img/logo/logo_transparent.png" alt="Logo">
+        </div>
+      </header>
       <div class="contenedor1">
-          <header>
-            <div class="logo">
-              <img src="./img/logo/logo_transparent.png" alt="Logo">
-            </div>
-          </header>
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/11sep/Imagen1.jpg" class="imagen" alt="..." >
-                <h1 class="titulo">Conoce todo sobre el 11 de Septiembre del 2001</h1>
+                <div class="carrusel">
+                  <img src="./img/11sep/Imagen1.jpg" class="carrusel__img">
+                  <h1 class="carrusel__texto"><a href="./11Sep.html">Conoce todo sobre el 11 de Septiembre del 2001</h1></a> 
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/afganistan/Imagen1.jpg" class="imagen" alt="...">
-                <h1 class="titulo">Te damos una reseña de lo que pasa en Afganistan</h1>
+                <div class="carrusel">
+                  <img src="./img/afganistan/Imagen1.jpg" class="carrusel__img" alt="...">
+                  <h1 class="carrusel__texto">Te damos una reseña de lo que pasa en Afganistan</h1>
+                </div>
               </div>
               <div class="carousel-item">
-                <img src="./img/pagina3/imagen1.jpg" class="imagen" alt="...">
-                <h1 class="titulo">Ecuador el país mas hermoso, que no puede matar la corrupción</h1>
+                <div class="carrusel">
+                  <img src="./img/pagina3/imagen1.jpg" class="carrusel__img" alt="...">
+                  <h1 class="carrusel__texto">Ecuador el país mas hermoso, que no puede matar la corrupción</h1>
+                </div>  
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

@@ -1,0 +1,61 @@
+$carousel-control-color: black;
+$carousel-control-width: 10%;
+$carousel-control-icon-width:        5rem;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&family=Pacifico&display=swap');
+
+.contenedor1{
+    // background-color: antiquewhite;
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+// #pagina2 .contenedor2{
+//     width: 90%;
+//     height: 80%;
+//     border: 2px solid black;
+//     margin: auto;
+//     background-color: cadetblue;
+// }
+
+ .logo{
+    background-color: white;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.logo img{
+    border: 5px outset gray;
+    width: 25%;
+    height: 25%;
+}
+
+.texto{
+    text-align: justify;
+    padding: 5rem;
+}
+
+.titulo{
+    text-align: center;
+    padding-top: 5rem;
+}
+
+
+.pie{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    letter-spacing: inherit;
+}

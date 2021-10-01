@@ -11124,20 +11124,13 @@ textarea.form-control-lg {
   text-align: center;
 }
 
-#pagina2 .contenedor2 {
-  width: 90%;
-  height: 80%;
-  border: 2px solid black;
-  margin: auto;
-  background-color: cadetblue;
-}
-
 .logo {
   background-color: white;
   margin: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 10px;
 }
 
 .logo img {
@@ -11146,55 +11139,14 @@ textarea.form-control-lg {
   height: 25%;
 }
 
-#pagina1 .contenedor1 .carousel-inner {
-  width: 100%;
-  height: 60%;
-  margin: auto;
+.texto {
+  text-align: justify;
+  padding: 5rem;
+}
+
+.titulo {
   text-align: center;
-}
-
-#pagina1 .contenedor1 .carousel-item {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.carrusel {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
-}
-
-.carrusel .carrusel__img {
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
-#pagina1 .contenedor1 .carousel-item .carrusel .carrusel__texto {
-  width: 100%;
-  color: orangered;
-  text-align: center;
-  position: absolute;
-  font-weight: bold;
-  font-family: "Pacifico", cursive;
-  font-size: 40px;
-  letter-spacing: 1px;
-}
-
-#pagina2 .contenedor2 .anteriores {
-  width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-#pagina2 .contenedor2 .anteriores a {
-  text-decoration: none;
-  color: blue;
+  padding-top: 5rem;
 }
 
 .pie {
@@ -11207,15 +11159,4 @@ textarea.form-control-lg {
   letter-spacing: inherit;
 }
 
-@media only screen and (max-width: 750px) {
-  #pagina1 .contenedor1 .carousel-item .titulo {
-    font-size: 1em;
-  }
-}
-@media only screen and (max-width: 900px) {
-  #pagina1 .contenedor1 .carousel-item .titulo {
-    font-size: 1.5em;
-  }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+/*# sourceMappingURL=estilos11s.css.map */

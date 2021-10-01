@@ -3,9 +3,10 @@ $carousel-control-width: 10%;
 $carousel-control-icon-width:        5rem;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&family=Pacifico&display=swap');
 
 .contenedor1{
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     width: 90%;
     height: 80%;
     margin: auto;
@@ -23,15 +24,18 @@ $carousel-control-icon-width:        5rem;
     background-color: cadetblue;
 }
 
-#pagina1 .contenedor1 .logo{
+ .logo{
     background-color: white;
     margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-#pagina1 .contenedor1 .logo img{
+.logo img{
     border: 5px outset gray;
-    width: 35%;
-    height: 35%;
+    width: 25%;
+    height: 25%;
 }
 
 #pagina1 .contenedor1  .carousel-inner{
@@ -45,16 +49,35 @@ $carousel-control-icon-width:        5rem;
     justify-content: center;
     align-items: center;
     text-align: center;
+
+}
+.carrusel{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 
-#pagina1 .contenedor1  .carousel-item .imagen{
-    width: 70%;
-    height: 70%;
+.carrusel .carrusel__img{
+    width: 100%;
+    height: 100%;
+    object-fit:fill;
 }
 
-#pagina1 .contenedor1  .carousel-item .titulo{
-    font-size: 2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#pagina1 .contenedor1  .carousel-item .carrusel .carrusel__texto{
+    width: 100%;
+    color:orangered;
+    text-align: center;
+    position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translateX(-50%) translateY(-50%);
+    // font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    letter-spacing: 1px;
 }
 
 
