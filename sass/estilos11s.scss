@@ -41,8 +41,8 @@ $carousel-control-icon-width:        5rem;
 
 
 .imagen{
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
 }
 .texto{
     text-align: justify;
@@ -50,10 +50,14 @@ $carousel-control-icon-width:        5rem;
 }
 
 .titulo{
+    font-family: 'Courier New', Courier, monospace;
+   
     text-align: center;
     padding-top: 5rem;
+    width: 90%;
+    height: 90%;
+    margin: auto;
 }
-
 
 .pie{
     text-align: center;

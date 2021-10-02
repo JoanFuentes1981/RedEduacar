@@ -11140,8 +11140,8 @@ textarea.form-control-lg {
 }
 
 .imagen {
-  width: 80%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
 }
 
 .texto {
@@ -11150,8 +11150,12 @@ textarea.form-control-lg {
 }
 
 .titulo {
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   padding-top: 5rem;
+  width: 90%;
+  height: 90%;
+  margin: auto;
 }
 
 .pie {
