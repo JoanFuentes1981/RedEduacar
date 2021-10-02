@@ -11139,6 +11139,11 @@ textarea.form-control-lg {
   height: 25%;
 }
 
+.imagen {
+  width: 80%;
+  height: 80%;
+}
+
 .texto {
   text-align: justify;
   padding: 5rem;

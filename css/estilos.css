@@ -11174,14 +11174,19 @@ textarea.form-control-lg {
 }
 
 #pagina1 .contenedor1 .carousel-item .carrusel .carrusel__texto {
-  width: 100%;
-  color: orangered;
+  width: 80%;
+  color: darkolivegreen;
   text-align: center;
   position: absolute;
   font-weight: bold;
   font-family: "Pacifico", cursive;
-  font-size: 40px;
+  font-size: 20px;
   letter-spacing: 1px;
+}
+
+#pagina1 .contenedor1 .carousel-item .carrusel .carrusel__texto a {
+  text-decoration: none;
+  color: darkolivegreen;
 }
 
 #pagina2 .contenedor2 .anteriores {
@@ -11207,14 +11212,14 @@ textarea.form-control-lg {
   letter-spacing: inherit;
 }
 
-@media only screen and (max-width: 750px) {
-  #pagina1 .contenedor1 .carousel-item .titulo {
-    font-size: 1em;
+@media only screen and (min-width: 750px) {
+  #pagina1 .contenedor1 .carousel-item .carrusel .carrusel__texto {
+    font-size: 30px;
   }
 }
-@media only screen and (max-width: 900px) {
-  #pagina1 .contenedor1 .carousel-item .titulo {
-    font-size: 1.5em;
+@media only screen and (min-width: 900px) {
+  #pagina1 .contenedor1 .carousel-item .carrusel .carrusel__texto {
+    font-size: 50px;
   }
 }
 
